@@ -1,0 +1,70 @@
+html, body {
+  min-height: 100vh;
+  background-color: rgb(26, 17, 13);
+  -webkit-box-shadow: inset 0 -180px 200px rgba(0,0,0,.6);
+  box-shadow: inset 0 -180px 200px rgba(0,0,0,.6);
+}
+#root {
+  min-height: 100vh;
+}
+// .wrapper {
+//   width: 100%;
+//   height: 100%;
+//   // will-change: auto;
+//   // transition: padding 0.15s;
+//   min-height: 100vh !important;
+//   // display: flex;
+// }
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  // height: 100%;
+  min-height: 100vh;
+  overflow: scroll;
+  padding: 0;
+  background-image: url("https://assets.worldofwarcraft.com/static/components/Pane/Pane-dirtDark.ea235926d6487091ac2d6786fd7d2615.jpg");
+}
+.content {
+  min-height: 100vh;
+  width: 100%;
+  overflow: scroll;
+  background-image: url("//bnetcmsus-a.akamaihd.net/cms/template_resource/ri/RI8Q9HOWY4U01465961118458.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.panel-overlay {
+  height: 100%;
+  -webkit-box-shadow: inset 0 -180px 200px rgba(0,0,0,.6);
+  box-shadow: inset 0 -180px 200px rgba(0,0,0,.6);
+}
+.main-scene {
+  margin: 0;
+  background-image: url("//bnetcmsus-a.akamaihd.net/cms/template_resource/ri/RI8Q9HOWY4U01465961118458.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // @media (min-width: 1600px)
+  // { background-size: 2400px; }
+
+}
+
+.wood {
+  background-color: #362a2a;
+  &__main {
+    margin-bottom: 6rem !important;
+   }
+ } 
+ .image-orc {
+  margin-top: 0.5rem;
+  width: 300px;
+  align-self: center;
+  border-radius: 0.5rem;
+  // border-bottom: 10px solid black;
+  // border-left: 10px solid black;
+  // border-right: 10px solid black;
+  border: 10px solid black;
+}

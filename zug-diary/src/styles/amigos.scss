@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Orc;
+  src: url('../../public/fonts/OrcHordeBB_Reg.otf')
+}
+
+.portrait {
+  width: 200px;
+  height: 243px;
+
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  object-fit: cover; object-position: 100% 0;
+}
+.card-title {
+  font-family: Orc;
+}
+.cardCharacter {
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.1s box-shadow, 0.1s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+.cardCharacter:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
